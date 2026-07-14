@@ -10,6 +10,7 @@ Large Desktop: 993px ate 1200px
 Grandes telas: acima de 1201px
 -----------------------------------
 */
+
 /* IMPRESSAO */
 @media print {
     * {
@@ -26,7 +27,7 @@ Grandes telas: acima de 1201px
         border: 2px solid black;
     }
 
-    nain h1 {
+    nain {
         text-shadow: none;
         color: black;
     }
@@ -57,7 +58,7 @@ Grandes telas: acima de 1201px
     }
 }
 
-@media screen and (max-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
     /* TABLET */
     body {
